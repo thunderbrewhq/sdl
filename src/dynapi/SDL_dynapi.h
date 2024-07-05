@@ -35,9 +35,12 @@
    updated SDL can transparently take advantage of them, but your program will
    not without this feature. Think hard before turning it off.
 */
-#ifdef SDL_DYNAMIC_API /* Tried to force it on the command line? */
-#error Nope, you have to edit this file to force this off.
-#endif
+
+// #ifdef SDL_DYNAMIC_API /* Tried to force it on the command line? */
+// #error Nope, you have to edit this file to force this off.
+// #endif
+
+#define SDL_DYNAMIC_API 0
 
 #ifdef SDL_PLATFORM_APPLE
 #include "TargetConditionals.h"
