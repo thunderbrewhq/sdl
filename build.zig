@@ -158,8 +158,10 @@ const generic_src_files = [_][]const u8{
     "src/SDL_list.c",
     "src/SDL_log.c",
     "src/SDL_utils.c",
+
     "src/atomic/SDL_atomic.c",
     "src/atomic/SDL_spinlock.c",
+    
     "src/audio/SDL_audio.c",
     "src/audio/SDL_audiocvt.c",
     "src/audio/SDL_audiodev.c",
@@ -168,8 +170,11 @@ const generic_src_files = [_][]const u8{
     "src/audio/SDL_audiotypecvt.c",
     "src/audio/SDL_mixer.c",
     "src/audio/SDL_wave.c",
+    
     "src/cpuinfo/SDL_cpuinfo.c",
+    
     "src/dynapi/SDL_dynapi.c",
+    
     "src/events/SDL_clipboardevents.c",
     "src/events/SDL_displayevents.c",
     "src/events/SDL_dropevents.c",
@@ -184,8 +189,11 @@ const generic_src_files = [_][]const u8{
     "src/events/SDL_touch.c",
     "src/events/SDL_windowevents.c",
     "src/events/imKStoUCS.c",
+    
     "src/file/SDL_iostream.c",
+    
     "src/haptic/SDL_haptic.c",
+    
     "src/hidapi/SDL_hidapi.c",
 
     "src/joystick/SDL_gamepad.c",
@@ -214,14 +222,22 @@ const generic_src_files = [_][]const u8{
     "src/libm/s_scalbn.c",
     "src/libm/s_sin.c",
     "src/libm/s_tan.c",
+    
     "src/locale/SDL_locale.c",
+    
+    "src/main/SDL_main_callbacks.c",
+
     "src/misc/SDL_url.c",
+    
     "src/power/SDL_power.c",
+    
     "src/render/SDL_d3dmath.c",
     "src/render/SDL_render.c",
     "src/render/SDL_render_unsupported.c",
     "src/render/SDL_yuv_sw.c",
+    
     "src/sensor/SDL_sensor.c",
+    
     "src/stdlib/SDL_crc16.c",
     "src/stdlib/SDL_crc32.c",
     "src/stdlib/SDL_getenv.c",
@@ -236,8 +252,11 @@ const generic_src_files = [_][]const u8{
     "src/stdlib/SDL_stdlib.c",
     "src/stdlib/SDL_string.c",
     "src/stdlib/SDL_strtokr.c",
+    
     "src/thread/SDL_thread.c",
+    
     "src/timer/SDL_timer.c",
+    
     "src/video/SDL_RLEaccel.c",
     "src/video/SDL_blit.c",
     "src/video/SDL_blit_0.c",
@@ -259,6 +278,7 @@ const generic_src_files = [_][]const u8{
     "src/video/SDL_video_unsupported.c",
     "src/video/SDL_vulkan_utils.c",
     "src/video/SDL_yuv.c",
+    
     "src/video/yuv2rgb/yuv_rgb_std.c",
     "src/video/yuv2rgb/yuv_rgb_sse.c",
     "src/video/yuv2rgb/yuv_rgb_std.c",
@@ -338,8 +358,11 @@ const windows_src_files = [_][]const u8{
     "src/video/windows/SDL_windowsvulkan.c",
     "src/video/windows/SDL_windowswindow.c",
 
+    "src/thread/generic/SDL_syscond.c",
+    "src/thread/generic/SDL_sysrwlock.c",
     "src/thread/windows/SDL_syscond_cv.c",
     "src/thread/windows/SDL_sysmutex.c",
+    "src/thread/windows/SDL_sysrwlock_srw.c",
     "src/thread/windows/SDL_syssem.c",
     "src/thread/windows/SDL_systhread.c",
     "src/thread/windows/SDL_systls.c",
