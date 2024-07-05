@@ -170,6 +170,8 @@ const generic_src_files = [_][]const u8{
     "src/audio/SDL_audiotypecvt.c",
     "src/audio/SDL_mixer.c",
     "src/audio/SDL_wave.c",
+
+    "src/camera/SDL_camera.c",
     
     "src/cpuinfo/SDL_cpuinfo.c",
     
